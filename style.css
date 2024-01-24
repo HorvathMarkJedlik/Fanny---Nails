@@ -1,3 +1,103 @@
 body{
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    height: 500px;
+    text-align: center;
+    background-color: rgb(246, 197, 193);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin: 0
+}
+
+#bemutatkozas{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#bem-kep {
+    float: right;
+}
+
+#bem-szoveg {
+    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px ;
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.elerhetoseg-doboz{
+    padding: 5px; 
+    font-size: 25px;
+    text-align: justify;
+    text-align: center;
+}
+
+.elerhetoseg-doboz li::before {
+  content: "";
+  display: inline-block;
+  width: 20px; 
+  height: 20px; 
+  margin-right: 20px;
+  background-image: url(képek/call.png); 
+  background-size: cover;
+}
+
+.elerhetoseg-doboz li.telefon::before {
+  background-image: url('img/call.png');
+}
+
+.elerhetoseg-doboz li.email::before {
+  background-image: url('img/gmail.png');
+}
+
+.elerhetoseg-doboz li.instagram::before {
+  background-image: url('img/instagram.png');
+}
+
+#ponten{
+    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px ;
+}
+
+
+.telefon, .email, .instagram{
+    list-style-type: none;
+}
+
+#sec {
+    background-color: rgb(246, 197, 193);
+}
+
+.navbar-brand{
+    color: pink!important;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sec1{
+    background-color: rgb(246, 197, 193);
+    height: 45px;
+}
+
+#sec3{
+    background-color: rgb(246, 197, 193);
+    height: 45px;
 }
