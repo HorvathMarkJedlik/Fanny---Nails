@@ -77,6 +77,10 @@ h2{
 }
 
 
+.telefon, .email, .instagram{
+    list-style-type: none;
+}
+
 #sec {
     background-color: rgb(246, 197, 193);
 }
