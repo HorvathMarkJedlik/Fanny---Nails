@@ -1,14 +1,74 @@
 body{
-    background-color: rgb(246, 197, 193);
+    background-color: white;
 }
 
 header{
-    height: 300px;
+    height: 500px;
     text-align: center;
+    background-color: rgb(246, 197, 193);
 }
 
 .logo{
     display: flex;
     justify-content: center;
-    
+}
+
+main {
+    margin: 0
+}
+
+#bemutatkozas{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#bem-kep {
+    float: right;
+}
+
+#bem-szoveg {
+    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px ;
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.elerhetoseg-doboz{
+    padding: 5px; 
+    font-size: 25px;
+    max-width: 555px; 
+    margin:  auto;
+    display: block;
+    text-align: justify;
+    background-color: white;
+    border-radius: 50px;
+    float: left;
+}
+
+.elerhetoseg-doboz li::before {
+  content: "";
+  display: inline-block;
+  width: 20px; 
+  height: 20px; 
+  margin-right: 20px;
+  background-image: url(képek/call.png); 
+  background-size: cover;
+}
+
+.elerhetoseg-doboz li.telefon::before {
+  background-image: url('img/call.png');
+}
+
+.elerhetoseg-doboz li.email::before {
+  background-image: url('img/gmail.png');
+}
+
+.elerhetoseg-doboz li.instagram::before {
+  background-image: url('img/instagram.png');
 }
