@@ -84,3 +84,20 @@ h2{
 #sec {
     background-color: rgb(246, 197, 193);
 }
+
+.navbar-brand{
+    color: pink!important;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sec1{
+    background-color: rgb(246, 197, 193);
+    height: 45px;
+}
+
+#sec3{
+    background-color: rgb(246, 197, 193);
+    height: 45px;
+}
