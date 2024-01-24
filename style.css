@@ -42,13 +42,10 @@ h2{
 .elerhetoseg-doboz{
     padding: 5px; 
     font-size: 25px;
-    max-width: 555px; 
-    margin:  auto;
-    display: block;
     text-align: justify;
     background-color: white;
     border-radius: 50px;
-    float: left;
+    text-align: center;
 }
 
 .elerhetoseg-doboz li::before {
@@ -71,4 +68,16 @@ h2{
 
 .elerhetoseg-doboz li.instagram::before {
   background-image: url('img/instagram.png');
+}
+
+#ponten{
+    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px ;
+}
+
+li {
+    list-style-type: none;
 }
