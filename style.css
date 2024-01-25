@@ -96,3 +96,11 @@ h2{
     background-color: rgb(246, 197, 193);
     height: 45px;
 }
+
+.card-group {
+    margin-top: 50px;
+}
+
+.card-title {
+    text-align: center;
+}
