@@ -45,14 +45,15 @@
 </nav>
 
 <h1 class="text-center foglaljtext">Foglalj időpontot!</h1>
+            <form>
+                <input name="name" type="text" class="feedback-input" placeholder="Név" />
+                <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                <input name="date" type="date" class="feedback-input" placeholder="Dátum" />
+                <textarea name="text" class="feedback-input" placeholder="Üzenet"></textarea>
+                <input type="submit" value="Küldés"/>
+            </form>
+                    
 
-<form>      
-    <input name="name" type="text" class="feedback-input" placeholder="Név" />   
-    <input name="email" type="text" class="feedback-input" placeholder="Email" />
-    <input name="date" type="date" class="feedback-input" placeholder="Dátum" />
-    <textarea name="text" class="feedback-input" placeholder="Üzenet"></textarea>
-    <input type="submit" value="Küldés"/>
-  </form>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script> AOS.init();</script>
