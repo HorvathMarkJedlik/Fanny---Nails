@@ -164,7 +164,7 @@ form { max-width:420px; margin: auto; }
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #CC6666;
+  border:2px solid pink;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -184,7 +184,7 @@ textarea {
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#CC6666;
+  background:pink;
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -196,7 +196,7 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:#CC4949; }
+[type="submit"]:hover { background:green; }
 
 .cookie {
     background-color: #00000094;
@@ -204,12 +204,12 @@ textarea {
     bottom: 0;
     border-radius: 10px;
     padding: 10px 20px;
-    display: flex; /* Flex display beállítása */
+    display: flex; 
     justify-content: center;
     align-items: center;
     left: 0;
     right: 0;
-    margin: auto; /* Margók beállítása 'auto'-ra */
+    margin: auto; 
 }
 
 .cookie .txt {
