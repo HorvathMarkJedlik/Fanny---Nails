@@ -78,6 +78,10 @@ h2{
     margin-left: 20px ;
 }
 
+#felsorolas{
+  text-align: center;
+  list-style-type: none;
+}
 
 .telefon, .email, .instagram{
     list-style-type: none;
