@@ -24,3 +24,4 @@ function Hitelesites() {
         alert("Foglalás elküldve!");
     }
 }
+
