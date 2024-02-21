@@ -40,21 +40,22 @@ function frissitSzalonAllapot() {
     var jelenlegiIdo = new Date();
     var ora = jelenlegiIdo.getHours();
 
-    var etteremTextElem = document.getElementById('szalontext');
+    var szalonTextElem = document.getElementById('szalontext');
     var onlineElem = document.getElementById('online');
     var offlineElem = document.createElement('span');
     offlineElem.id = 'offline';
     offlineElem.textContent = 'ZÁRVA';
 
     if (ora >= 8 && ora < 16) {
-        etteremTextElem.removeChild(offlineElem);
-        etteremTextElem.appendChild(onlineElem);
+        szalonTextElem.removeChild(offlineElem);
+        szalonTextElem.appendChild(onlineElem);
     } else {
-        etteremTextElem.removeChild(onlineElem);
-        etteremTextElem.appendChild(offlineElem);
+        szalonTextElem.removeChild(onlineElem);
+        szalonTextElem.appendChild(offlineElem);
     }
 }
 
-frissitEttremAllapot();
+frissitSzalonAllapot()
 
-setInterval(frissitEttremAllapot, 60000);
+
+setInterval(frissitSzalonAllapot, 60000);
