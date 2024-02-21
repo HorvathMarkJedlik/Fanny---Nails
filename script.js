@@ -1,3 +1,4 @@
+
 $(".inner-switch").on("click", function() {
     if($("body").hasClass("dark")){
         $("body").removeClass("dark");
@@ -7,3 +8,5 @@ $(".inner-switch").on("click", function() {
         $(".inner-switch").text("ON");
     }
 });
+
+
