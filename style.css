@@ -236,6 +236,7 @@ textarea {
 .switch {
   align-self: flex-end;
   margin: 0.9375rem;
+  float: right;
 }
 .inner-switch {
   display: inline-block;
