@@ -25,3 +25,36 @@ function Hitelesites() {
     }
 }
 
+
+// document.querySelector(".anyu")
+// .addEventListener("click", function(){
+//     document.querySelector(".card-group").style.filter = "blur(5px)";
+//     document.querySelector(".apu").style.filter = "blur(10px)";
+//     document.querySelector(".anyuka1").style.display = "flex";
+//     document.querySelector(".anyuka1").style.oapcity = "1";
+//     document.querySelector(".anyuka1").style.height = "20vw";
+//     document.querySelector(".anyuka1").style.transition = "1s";
+// })
+
+function frissitSzalonAllapot() {
+    var jelenlegiIdo = new Date();
+    var ora = jelenlegiIdo.getHours();
+
+    var etteremTextElem = document.getElementById('szalontext');
+    var onlineElem = document.getElementById('online');
+    var offlineElem = document.createElement('span');
+    offlineElem.id = 'offline';
+    offlineElem.textContent = 'ZÁRVA';
+
+    if (ora >= 8 && ora < 16) {
+        etteremTextElem.removeChild(offlineElem);
+        etteremTextElem.appendChild(onlineElem);
+    } else {
+        etteremTextElem.removeChild(onlineElem);
+        etteremTextElem.appendChild(offlineElem);
+    }
+}
+
+frissitEttremAllapot();
+
+setInterval(frissitEttremAllapot, 60000);
